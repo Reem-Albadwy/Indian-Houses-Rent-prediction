@@ -26,7 +26,7 @@ It includes **data preprocessing, feature engineering, exploratory data analysis
 
 ---
 
-## 🛠️ Steps Performed
+##  Steps Performed
 
 ### **1) Data Cleaning & Feature Engineering**
 - **Date Feature:**
@@ -55,7 +55,7 @@ It includes **data preprocessing, feature engineering, exploratory data analysis
 
 ---
 
-### **2 Exploratory Data Analysis (EDA)**
+### **2) Exploratory Data Analysis (EDA)**
 - **Univariate Analysis**
   - Count plots for categorical features (`City`, `Furnishing Status`, `Area Type`, etc.)
 - **Correlation Heatmap**
@@ -68,7 +68,7 @@ It includes **data preprocessing, feature engineering, exploratory data analysis
 
 ---
 
-### **3 Handling Missing Values**
+### **3) Handling Missing Values**
 - **BHK** → Filled with median values.
 - **Bathroom** → Filled based on median bathrooms grouped by BHK.
 - **Size** → Filled by median size grouped by BHK.
@@ -80,11 +80,11 @@ It includes **data preprocessing, feature engineering, exploratory data analysis
 
 ---
 
-### **4 Encoding categorical variables** using Target and Label Encoding.
+### **4) Encoding categorical variables** using Target and Label Encoding.
 
 -----
 
-### **5 Model Building & Evaluation**
+### **5) Model Building & Evaluation**
 
 We tested multiple regression models to predict **Rent**.  
 Models were evaluated using **R² Score**, **Mean Absolute Error (MAE)**, and **Root Mean Squared Error (RMSE)**.
@@ -100,7 +100,7 @@ Models were evaluated using **R² Score**, **Mean Absolute Error (MAE)**, and **
 | **Decision Tree**   | 0.56802     | 8210.58   | 12940.20   |
 ---
 
-### ** Best Performing Model**
+### **Best Performing Model**
 The **CatBoost Regressor** performed best with:
 - **R² Score:** `0.815`
 - **MAE:** `~5736`
@@ -110,7 +110,7 @@ We selected **CatBoost** as the **final model** for deployment due to its superi
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Languages:** Python  
 - **Libraries:** Pandas, NumPy, Matplotlib, Seaborn  
 - **Machine Learning:** Scikit-learn, XGBoost, LightGBM, CatBoost  
