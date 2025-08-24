@@ -106,7 +106,7 @@ The **CatBoost Regressor** performed best with:
 - **MAE:** `~5736`
 - **RMSE:** `~8464`
 
-We selected **CatBoost** as the **final model** for deployment due to its superior accuracy and stability.
+We selected **CatBoost** as the **final model** After **hyperparameter tuning** due to its superior accuracy and stability.
 
 ---
 
